@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#ffe6f0;
+}
+
+#maze{
+    display:grid;
+    grid-template-columns:repeat(10,40px);
+    gap:2px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.cell{
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+.wall{
+    background:#444;
+}
+
+.path{
+    background:white;
+}
+
+.hidden{
+    display:none;
+}
+
+#message{
+    margin-top:20px;
+}
